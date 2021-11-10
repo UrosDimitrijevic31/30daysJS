@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Day1 from './containers/1day/1day'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>1 day</p>
       </header>
+      <main className="main">
+        <Day1 />
+      </main>
     </div>
   );
 }
